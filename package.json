@@ -1,0 +1,52 @@
+{
+  "name": "chinese-css-properties",
+  "version": "1.0.2",
+  "description": "chinese CSS Properties",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhouwenbin/chinese-css-properties.git"
+  },
+  "keywords": [
+    "css",
+    "postcss",
+    "chinese",
+    "properties"
+  ],
+  "author": {
+    "name": "zhouwenbin",
+    "email": "zwb86@qq.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhouwenbin/chinese-css-properties/issues"
+  },
+  "homepage": "https://github.com/zhouwenbin/chinese-css-properties#readme",
+  "gitHead": "a2a395e5d96c2318f19723be3607ebc4a30fa993",
+  "_id": "chinese-css-properties@1.0.2",
+  "_shasum": "6f9c9706e7077a1f4996ed47fe5f1192ce43e10e",
+  "_from": "chinese-css-properties@>=1.0.2 <2.0.0",
+  "_npmVersion": "2.14.4",
+  "_nodeVersion": "4.1.1",
+  "_npmUser": {
+    "name": "zhouwenbin",
+    "email": "zwb86@qq.com"
+  },
+  "maintainers": [
+    {
+      "name": "zhouwenbin",
+      "email": "zwb86@qq.com"
+    }
+  ],
+  "dist": {
+    "shasum": "afbee8cbecb82e23992e14b7b1c11c92fe99606f",
+    "tarball": "http://registry.npmjs.org/chinese-css-properties/-/chinese-css-properties-1.0.2.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/chinese-css-properties/-/chinese-css-properties-1.0.2.tgz",
+  "readme": "# <img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/800px-Flag_of_the_People%27s_Republic_of_China.svg.png\" alt=\"china\" height=\"32px\" width=\"auto\"> chinese CSS Properties\n\n> Overall CSS Properties translated into chinese\n\n_Please feel free to submit a pull request if any of the words seem weird_\n\n## Usage\n\n```console\n$ npm install --save chinese-css-properties\n```\n\n```js\n/**\n * Getting chinese CSS Properties\n *\n * @return {object}\n */\n\nvar SECSS = require('chinese-css-properties');\n```\n\n## Properties\n\n* `animation-delay`: 动画延迟\n* `animation-direction`: 动画方向\n* `animation-duration`: 动画持续时间\n* `animation-fill-mode`: 动画填充模式\n* `animation-iteration-count`: 动画重复计数\n* `animation-name`: 动画名称\n* `animation-play-state`: 动画播放状态\n* `animation-timing-function`: 动画计时功能\n* `animation`: 动画\n* `background-attachment`: 背景附属\n* `background-clip`: 背景裁切\n* `background-color`: 背景颜色\n* `background-image`: 背景图片\n* `background-origin`: 背景原点\n* `background-position`: 背景位置\n* `background-repeat`: 背景重复\n* `background-size`: 背景大小\n* `background`: 背景\n* `border-bottom-color`: 下边框颜色\n* `border-bottom-left-radius`: 左下圆角\n* `border-bottom-right-radius`: 右下圆角\n* `border-bottom-style`: 下边框风格\n* `border-bottom-width`: 下边框宽度\n* `border-bottom`: 下边框\n* `border-collapse`: 边框塌陷\n* `border-color`: 边框颜色\n* `border-image`: 边框图片\n* `border-image-outset`: 边框图片起点\n* `border-image-repeat`: 边框图片重复\n* `border-image-slice`: 边框图片裁切\n* `border-image-source`: 边框图片来源\n* `border-image-width`: 边框图片宽度\n* `border-left-color`: 左边框颜色\n* `border-left-style`: 左边框风格\n* `border-left-width`: 左边框宽度\n* `border-left`: 左边框\n* `border-radius`: 圆角\n* `border-right-color`: 右边框颜色\n* `border-right-style`: 右边框风格\n* `border-right-width`: 右边框宽度\n* `border-right`: 右边框\n* `border-spacing`: 边框间距\n* `border-style`: 边框风格\n* `border-top-color`: 上边框颜色\n* `border-top-left-radius`: 左上圆角\n* `border-top-right-radius`: 右上圆角\n* `border-top-style`: 上边框风格\n* `border-top-width`: 上边框宽度\n* `border-top`: 上边框\n* `border-width`: 边框宽度\n* `border`: 边框\n* `bottom`: 底部\n* `box-shadow`: 盒子阴影\n* `box-sizing`: 盒子大小\n* `caption-side`: 标题边\n* `clear`: 清除\n* `clip`: 修剪\n* `color`: 颜色\n* `columns`: 列\n* `column-count`: 列数\n* `column-fill`: 列填充\n* `column-gap`: 列间隙\n* `column-rule`: 列规则\n* `column-rule-color`: 列规则颜色\n* `column-rule-style`: 列规则风格\n* `column-rule-width`: 列规则宽度\n* `column-span`: 列跨度\n* `column-width`: 列宽度\n* `content`: 内容\n* `counter-increment`: 计数器增加\n* `counter-reset`: 计数器重置\n* `cursor`: 光标\n* `display`: 显示\n* `empty-cells`: 空单元\n* `filter`: 过滤\n* `flex-basis`: 弹性基础\n* `flex-direction`: 弹性方向\n* `flex-flow`: 弹性流\n* `flex-grow`: 弹性增长\n* `flex-shrink`: 弹性收缩\n* `flex-wrap`: 弹性包裹\n* `flex`: 弹性\n* `float`: 浮动\n* `font-family`: 字体家族\n* `font-feature-settings`: 字体功能设置\n* `font-size`: 字体大小\n* `font-size-adjust`: 字体大小调整\n* `font-style`: 字体风格\n* `font-variant`: 字体变种\n* `font-weight`: 字体宽度\n* `font`: 字体\n* `height`: 高\n* `hyphens`: 连字符\n* `justify-content`: 对齐内容\n* `left`: 左\n* `letter-spacing`: 字母间距\n* `line-break`: 断行\n* `line-height`: 行高\n* `list-style-image`: 列表风格图片\n* `list-style-position`: 列表风格位置\n* `list-style-type`: 列表风格类型\n* `list-style`: 列表风格\n* `margin-bottom`: 下边沿\n* `margin-left`: 左边沿\n* `margin-right`: 右边沿\n* `margin-top`: 上边沿\n* `margin`: 边沿\n* `max-height`: 最大高度\n* `max-width`: 最大宽度\n* `min-height`: 最小高度\n* `min-width`: 最小宽度\n* `opacity`: 透明度\n* `order`: 顺序\n* `orphans`: 孤儿\n* `outline-color`: 轮廓颜色\n* `outline-offset`: 轮廓偏移\n* `outline-style`: 轮廓风格\n* `outline-width`: 轮廓宽度\n* `outline`: 轮廓\n* `overflow-x`: 水平隐藏\n* `overflow-y`: 竖直隐藏\n* `overflow`: 隐藏\n* `padding-bottom`: 下填充\n* `padding-left`: 左填充\n* `padding-right`: 右填充\n* `padding-top`: 上填充\n* `padding`: 填充\n* `perspective-origin`: 透视原点\n* `perspective`: 透视\n* `pointer-events`: 指针时间\n* `position`: 定位\n* `quotes`: 引用\n* `resize`: 调整\n* `right`: 右\n* `table-layout`: 表格布局\n* `tab-size`: 标签大小\n* `text-align`: 文字对齐\n* `text-decoration`: 文字装饰\n* `text-indent`: 文字缩进\n* `text-orientation`: 文字方向\n* `text-overflow`: 文字隐藏\n* `text-rendering`: 文字渲染\n* `text-shadow`: 文字阴影\n* `text-transform`: 文字转换\n* `top`: 上\n* `transition-delay`: 过渡延迟\n* `transition-duration`: 过渡方向\n* `transition-property`: 过渡属性\n* `transition-timing-function`: 过渡计时功能\n* `transition`: 过渡\n* `unicode-bidi`: unicode-bidi\n* `vertical-align`: 垂直对齐\n* `visibility`: 可视性\n* `white-space`: 空格\n* `widows`: 窗口\n* `width`: 宽度\n* `word-break`: 断字\n* `word-spacing`: 字间距\n* `word-wrap`: 字包裹\n* `writing-mode`: 写作模式\n* `z-index`: 层级'\n\n### Licence\n\n[MIT](licence) © zhouwenbin\n",
+  "readmeFilename": "README.md"
+}
